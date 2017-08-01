@@ -30,6 +30,31 @@
         <webApp.contextPath/>
     </properties>
 
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/ijson/in-parent-pom</url>
+        <connection>scm:git:https://github.com/ijson/in-parent-pom.git</connection>
+        <developerConnection>scm:git:https://github.com/ijson/in-parent-pom.git</developerConnection>
+        <tag>ijson-parent-pom-1.0.0</tag>
+    </scm>
+
+
+    <developers>
+        <developer>
+            <name>cuiyongxu</name>
+            <email>cuiyongxu@gmail.com</email>
+            <url>https://www.ijson.net</url>
+        </developer>
+    </developers>
+
+
 
     <dependencyManagement>
         <dependencies>
