@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ijson.common</groupId>
     <artifactId>ijson-parent-pom</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <name>ijson-parent-pom</name>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <description>
+        ijson-parent-pom
+    </description>
+
+    <url>http://www.ijson.com</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -67,7 +74,7 @@
         <objenesis.version>2.1</objenesis.version>
         <okhttp3.version>3.3.1</okhttp3.version>
         <war.name>in</war.name>
-        <webApp.contextPath />
+        <webApp.contextPath/>
 
 
     </properties>
@@ -84,8 +91,7 @@
         <url>https://github.com/ijson/in-parent-pom</url>
         <connection>scm:git:https://github.com/ijson/in-parent-pom.git</connection>
         <developerConnection>scm:git:https://github.com/ijson/in-parent-pom.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+    </scm>
 
 
     <developers>
