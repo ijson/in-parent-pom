@@ -4,7 +4,7 @@
 
     <groupId>com.ijson.common</groupId>
     <artifactId>ijson-parent-pom</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
 
@@ -84,7 +84,7 @@
         <url>https://github.com/ijson/in-parent-pom</url>
         <connection>scm:git:https://github.com/ijson/in-parent-pom.git</connection>
         <developerConnection>scm:git:https://github.com/ijson/in-parent-pom.git</developerConnection>
-      <tag>ijson-parent-pom-1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
 
