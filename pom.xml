@@ -5,7 +5,7 @@
     <groupId>com.ijson.common</groupId>
     <artifactId>ijson-parent-pom</artifactId>
     <name>ijson-parent-pom</name>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <description>
@@ -90,7 +90,6 @@
         <url>https://github.com/ijson/in-parent-pom</url>
         <connection>scm:git:https://github.com/ijson/in-parent-pom.git</connection>
         <developerConnection>scm:git:https://github.com/ijson/in-parent-pom.git</developerConnection>
-      <tag>HEAD</tag>
   </scm>
 
 
@@ -825,7 +824,7 @@
             <build>
                 <plugins>
                     <!-- Source -->
-                    <plugin>
+                    <!--<plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-source-plugin</artifactId>
                         <version>2.2.1</version>
@@ -837,9 +836,9 @@
                                 </goals>
                             </execution>
                         </executions>
-                    </plugin>
+                    </plugin>-->
                     <!-- Javadoc -->
-                    <plugin>
+                    <!--<plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-javadoc-plugin</artifactId>
                         <version>2.9.1</version>
@@ -851,7 +850,7 @@
                                 </goals>
                             </execution>
                         </executions>
-                    </plugin>
+                    </plugin>-->
                     <!-- GPG -->
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
