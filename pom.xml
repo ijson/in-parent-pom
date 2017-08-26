@@ -652,6 +652,11 @@
                 <artifactId>resteasy-spring</artifactId>
                 <version>${jboss-resteasy.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.jboss.resteasy</groupId>
+                <artifactId>resteasy-jaxrs</artifactId>
+                <version>${jboss-resteasy.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
