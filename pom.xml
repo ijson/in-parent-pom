@@ -24,9 +24,9 @@
         <commons-io.version>2.5</commons-io.version>
         <commons-collections.version>3.2.2</commons-collections.version>
         <httpclient.version>4.5.2</httpclient.version>
-        <spring.version>4.2.6.RELEASE</spring.version>
+        <spring.version>4.3.18.RELEASE</spring.version>
         <junit.version>4.12</junit.version>
-        <fastjson.version>1.2.16</fastjson.version>
+        <fastjson.version>1.2.47</fastjson.version>
         <xstream.version>1.4.9</xstream.version>
         <jdk.version>1.8</jdk.version>
         <skip_maven_deploy>false</skip_maven_deploy>
@@ -34,7 +34,7 @@
         <commons-pool2.version>2.3</commons-pool2.version>
         <orika.version>1.4.6</orika.version>
         <joda-time.version>2.9.3</joda-time.version>
-        <jackson.version>2.8.9</jackson.version>
+        <jackson.version>2.9.8</jackson.version>
         <jackson-asl.version>1.9.13</jackson-asl.version>
         <commons-codec.version>1.10</commons-codec.version>
         <commons-beanutils.version>1.9.2</commons-beanutils.version>
