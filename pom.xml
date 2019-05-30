@@ -58,7 +58,7 @@
         <antlr4-runtime.version>4.5.3</antlr4-runtime.version>
         <rocketmq.version>3.2.6</rocketmq.version>
         <kafka-clients.version>0.9.0.1</kafka-clients.version>
-        <zookeeper.version>3.4.6</zookeeper.version>
+        <zookeeper.version>3.4.14</zookeeper.version>
         <curator.version>2.9.0</curator.version>
         <netty.version>4.0.33.Final</netty.version>
         <jboss.netty.version>3.2.10.Final</jboss.netty.version>
