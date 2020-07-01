@@ -84,7 +84,7 @@
         <jboss-resteasy.version>3.0.19.Final</jboss-resteasy.version>
         <logback-ext-spring.version>0.1.4</logback-ext-spring.version>
         <jstl.version>1.2</jstl.version>
-        <mysql.version>5.1.43</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <druid.version>1.1.2</druid.version>
         <aopalliance.version>1.0</aopalliance.version>
         <ehcache.version>2.6.8</ehcache.version>
