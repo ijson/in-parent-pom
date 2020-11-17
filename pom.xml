@@ -19,22 +19,22 @@
         <lombok.version>1.16.10</lombok.version>
         <logback.version>1.2.3</logback.version>
         <slf4j.version>1.7.21</slf4j.version>
-        <guava.version>19.0</guava.version>
+        <guava.version>24.1.1</guava.version>
         <gson.version>2.6.2</gson.version>
         <commons-io.version>2.6</commons-io.version>
         <commons-collections.version>3.2.2</commons-collections.version>
         <httpclient.version>4.5.2</httpclient.version>
-        <spring.version>4.3.18.RELEASE</spring.version>
-        <junit.version>4.12</junit.version>
+        <spring.version>5.2.9.RELEASE</spring.version>
+        <junit.version>4.13.1</junit.version>
         <fastjson.version>1.2.47</fastjson.version>
-        <xstream.version>1.4.9</xstream.version>
+        <xstream.version>1.4.14-jdk7</xstream.version>
         <jdk.version>1.8</jdk.version>
         <skip_maven_deploy>false</skip_maven_deploy>
         <jedis.version>2.8.1</jedis.version>
         <commons-pool2.version>2.3</commons-pool2.version>
         <orika.version>1.4.6</orika.version>
         <joda-time.version>2.9.3</joda-time.version>
-        <jackson.version>2.9.10</jackson.version>
+        <jackson.version>2.9.10.5</jackson.version>
         <jackson-asl.version>1.9.13</jackson-asl.version>
         <commons-codec.version>1.10</commons-codec.version>
         <commons-beanutils.version>1.9.2</commons-beanutils.version>
@@ -53,7 +53,7 @@
         <persistence-api.version>1.0.2</persistence-api.version>
         <hibernate.version>4.3.0.Final</hibernate.version>
         <cas-client-core.version>3.4.1</cas-client-core.version>
-        <shiro.version>1.4.0</shiro.version>
+        <shiro.version>1.4.2</shiro.version>
         <velocity-tools.version>2.0</velocity-tools.version>
         <jetbrick-template.version>2.1.2</jetbrick-template.version>
         <antlr4-runtime.version>4.5.3</antlr4-runtime.version>
@@ -84,7 +84,7 @@
         <jboss-resteasy.version>3.0.19.Final</jboss-resteasy.version>
         <logback-ext-spring.version>0.1.4</logback-ext-spring.version>
         <jstl.version>1.2</jstl.version>
-        <mysql.version>5.1.43</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <druid.version>1.1.2</druid.version>
         <aopalliance.version>1.0</aopalliance.version>
         <ehcache.version>2.6.8</ehcache.version>
@@ -94,6 +94,9 @@
         <bitwalker.version>1.20</bitwalker.version>
         <esapi.version>2.1.0</esapi.version>
         <jsoup.version>1.12.1</jsoup.version>
+        <mail.version>1.4.7</mail.version>
+        <quartz.version>2.3.2</quartz.version>
+        <pinyin4j.version>2.5.1</pinyin4j.version>
     </properties>
 
     <licenses>
@@ -123,6 +126,79 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>javax.mail</groupId>
+                <artifactId>mail</artifactId>
+                <version>${mail.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.quartz-scheduler</groupId>
+                <artifactId>quartz</artifactId>
+                <version>${quartz.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.belerweb</groupId>
+                <artifactId>pinyin4j</artifactId>
+                <version>${pinyin4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.retry</groupId>
+                <artifactId>spring-retry</artifactId>
+                <version>1.2.5.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aop</artifactId>
+                <version>4.3.18.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-tx</artifactId>
+                <version>4.3.18.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>com.asprise.ocr</groupId>
+                <artifactId>java-ocr-api</artifactId>
+                <version>15.3.0.3</version>
+            </dependency>
+            <dependency>
+                <groupId>net.java.dev.jna</groupId>
+                <artifactId>jna</artifactId>
+                <version>4.2.1</version>
+            </dependency>
+            <dependency>
+                <groupId>net.sourceforge.tess4j</groupId>
+                <artifactId>tess4j</artifactId>
+                <version>4.1.1</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.sun.jna</groupId>
+                        <artifactId>jna</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
+                <version>5.6.0</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <!-- jetty for webserver integration tests. 9.2 is last with Java7 support -->
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-server</artifactId>
+                <version>9.4.26.v20200117</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <!-- jetty for webserver integration tests -->
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-servlet</artifactId>
+                <version>9.4.26.v20200117</version>
+                <scope>test</scope>
+            </dependency>
+
+            <!-- 2020年11月17日16:08:15 ^ -->
             <dependency>
                 <groupId>org.jsoup</groupId>
                 <artifactId>jsoup</artifactId>
