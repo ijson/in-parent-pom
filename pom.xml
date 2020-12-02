@@ -102,7 +102,7 @@
         <jna.version>5.5.0</jna.version>
         <tess4j.version>4.5.4</tess4j.version>
         <junit-jupiter.version>5.7.0</junit-jupiter.version>
-        <jetty-server.version>9.4.34.v20201102</jetty-server.version>
+        <jetty-server.version>9.4.35.v20201120</jetty-server.version>
     </properties>
 
     <licenses>
