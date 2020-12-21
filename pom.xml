@@ -27,7 +27,7 @@
         <spring.version>5.2.9.RELEASE</spring.version>
         <junit.version>4.13.1</junit.version>
         <fastjson.version>1.2.47</fastjson.version>
-        <xstream.version>1.4.14-jdk7</xstream.version>
+        <xstream.version>1.4.15</xstream.version>
         <jdk.version>1.8</jdk.version>
         <skip_maven_deploy>false</skip_maven_deploy>
         <jedis.version>2.8.1</jedis.version>
