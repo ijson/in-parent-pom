@@ -27,14 +27,14 @@
         <spring.version>5.2.9.RELEASE</spring.version>
         <junit.version>4.13.1</junit.version>
         <fastjson.version>1.2.47</fastjson.version>
-        <xstream.version>1.4.14-jdk7</xstream.version>
+        <xstream.version>1.4.15</xstream.version>
         <jdk.version>1.8</jdk.version>
         <skip_maven_deploy>false</skip_maven_deploy>
         <jedis.version>2.8.1</jedis.version>
         <commons-pool2.version>2.3</commons-pool2.version>
         <orika.version>1.4.6</orika.version>
         <joda-time.version>2.9.3</joda-time.version>
-        <jackson.version>2.9.10.5</jackson.version>
+        <jackson.version>2.9.10</jackson.version>
         <jackson-asl.version>1.9.13</jackson-asl.version>
         <commons-codec.version>1.10</commons-codec.version>
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
@@ -45,6 +45,7 @@
         <commons-logging.version>1.2</commons-logging.version>
         <commons-fileupload.version>1.3.3</commons-fileupload.version>
         <commons-configuration.version>1.10</commons-configuration.version>
+        <commons-text.version>1.8</commons-text.version>
         <aspectj.version>1.8.7</aspectj.version>
         <javassist.version>3.20.0-GA</javassist.version>
         <asm.version>3.3.1</asm.version>
@@ -79,7 +80,7 @@
         <webApp.contextPath />
         <jetty.version>9.3.8.v20160314</jetty.version>
         <hamcrest.version>1.3</hamcrest.version>
-        <mongo-java-driver.version>3.2.2</mongo-java-driver.version>
+        <mongo-java-driver.version>3.12.7</mongo-java-driver.version>
         <morphia.version>1.1.1</morphia.version>
         <jboss-resteasy.version>3.0.19.Final</jboss-resteasy.version>
         <logback-ext-spring.version>0.1.4</logback-ext-spring.version>
@@ -102,7 +103,12 @@
         <jna.version>5.5.0</jna.version>
         <tess4j.version>4.5.4</tess4j.version>
         <junit-jupiter.version>5.7.0</junit-jupiter.version>
-        <jetty-server.version>9.4.34.v20201102</jetty-server.version>
+        <jetty-server.version>9.4.35.v20201120</jetty-server.version>
+        <beetl.version>2.7.22</beetl.version>
+        <spring-data-mongodb.version>3.1.1</spring-data-mongodb.version>
+        <beetl-framework-starter.version>1.2.6.RELEASE</beetl-framework-starter.version>
+        <metadata-extractor.version>2.14.0</metadata-extractor.version>
+        <spring-boot.version>2.1.6.RELEASE</spring-boot.version>
     </properties>
 
     <licenses>
@@ -132,6 +138,51 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-actuator</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-autoconfigure</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-devtools</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-aop</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.drewnoakes</groupId>
+                <artifactId>metadata-extractor</artifactId>
+                <version>${metadata-extractor.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ibeetl</groupId>
+                <artifactId>beetl-framework-starter</artifactId>
+                <version>${beetl-framework-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ibeetl</groupId>
+                <artifactId>beetl</artifactId>
+                <version>${beetl.version}</version>
+            </dependency>
             <dependency>
                 <groupId>javax.mail</groupId>
                 <artifactId>mail</artifactId>
@@ -263,6 +314,11 @@
                 <version>${commons-collections.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-text</artifactId>
+                <version>${commons-text.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
                 <version>${httpclient.version}</version>
@@ -276,6 +332,11 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context</artifactId>
                 <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-mongodb</artifactId>
+                <version>${spring-data-mongodb.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.sun.jersey.contribs</groupId>
