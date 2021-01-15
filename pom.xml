@@ -34,7 +34,7 @@
         <commons-pool2.version>2.3</commons-pool2.version>
         <orika.version>1.4.6</orika.version>
         <joda-time.version>2.9.3</joda-time.version>
-        <jackson.version>2.9.10</jackson.version>
+        <jackson.version>2.12.1</jackson.version>
         <jackson-asl.version>1.9.13</jackson-asl.version>
         <commons-codec.version>1.10</commons-codec.version>
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
