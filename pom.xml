@@ -26,7 +26,7 @@
         <commons-collections.version>3.2.2</commons-collections.version>
         <httpclient.version>4.5.2</httpclient.version>
         <spring.version>5.1.8.RELEASE</spring.version>
-<!--        <spring-mvc.version>5.1.14.RELEASE</spring-mvc.version>-->
+        <spring-mvc.version>5.1.14.RELEASE</spring-mvc.version>
         <junit.version>4.13.1</junit.version>
         <fastjson.version>1.2.47</fastjson.version>
         <xstream.version>1.4.15</xstream.version>
@@ -37,7 +37,7 @@
         <orika.version>1.4.6</orika.version>
         <joda-time.version>2.9.3</joda-time.version>
         <jackson.version>2.9.10</jackson.version>
-<!--        <jackson-databind.version>2.9.10.5</jackson-databind.version>-->
+        <jackson-databind.version>2.9.10.5</jackson-databind.version>
         <jackson-asl.version>1.9.13</jackson-asl.version>
         <commons-codec.version>1.10</commons-codec.version>
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
@@ -456,7 +456,7 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-webmvc</artifactId>
-                <version>${spring.version}</version>
+                <version>${spring-mvc.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
@@ -511,7 +511,7 @@
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
-                <version>jackson.version</version>
+                <version>${jackson-databind.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fasterxml.jackson.module</groupId>
