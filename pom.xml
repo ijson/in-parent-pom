@@ -57,7 +57,7 @@
         <persistence-api.version>1.0.2</persistence-api.version>
         <hibernate.version>4.3.0.Final</hibernate.version>
         <cas-client-core.version>3.4.1</cas-client-core.version>
-        <shiro.version>1.4.2</shiro.version>
+        <shiro.version>1.7.1</shiro.version>
         <velocity-tools.version>2.0</velocity-tools.version>
         <jetbrick-template.version>2.1.2</jetbrick-template.version>
         <antlr4-runtime.version>4.7.2</antlr4-runtime.version>
