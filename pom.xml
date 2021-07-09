@@ -118,6 +118,7 @@
         <crawler4j.version>4.4.0</crawler4j.version>
         <redisson.version>3.14.1</redisson.version>
         <rome.version>1.14.1</rome.version>
+        <mongodb-driver.version>4.2.3</mongodb-driver.version>
     </properties>
 
     <licenses>
@@ -147,6 +148,16 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongodb-driver-core</artifactId>
+                <version>${mongodb-driver.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongodb-driver-sync</artifactId>
+                <version>${mongodb-driver.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
                 <artifactId>rome</artifactId>
