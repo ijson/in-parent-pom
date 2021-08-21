@@ -189,9 +189,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/ijson/in-parent-pom</url>
-        <connection>scm:git:https://github.com/ijson/in-parent-pom.git</connection>
-        <developerConnection>scm:git:https://github.com/ijson/in-parent-pom.git</developerConnection>
+        <url>https://gitee.com/ijson/in-parent-pom</url>
+        <connection>scm:git:https://gitee.com/ijson/in-parent-pom.git</connection>
+        <developerConnection>scm:git:https://gitee.com/ijson/in-parent-pom.git</developerConnection>
         <tag>ijson-parent-pom-1.0.9</tag>
     </scm>
 
@@ -1164,7 +1164,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.3</version>
                 <configuration>
-                    <tagBase>https://github.com/ijson/in-parent-pom/tags/</tagBase>
+                    <tagBase>https://gitee.com/ijson/in-parent-pom/tags</tagBase>
                 </configuration>
             </plugin>
             <plugin>
