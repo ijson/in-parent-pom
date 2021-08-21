@@ -113,7 +113,7 @@
         <netty.version>4.1.44.Final</netty.version>
         <jboss.netty.version>3.2.10.Final</jboss.netty.version>
         <jetty.version>9.3.8.v20160314</jetty.version>
-        <jetty-server.version>11.0.1</jetty-server.version>
+        <jetty-server.version>11.0.3</jetty-server.version>
 
 
         <!-- WEB及RESTFUL-->
