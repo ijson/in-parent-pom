@@ -139,7 +139,7 @@
 
         <!-- 爬虫 -->
         <crawler4j.version>4.4.0</crawler4j.version>
-        <jsoup.version>1.12.1</jsoup.version>
+        <jsoup.version>1.14.2</jsoup.version>
 
         <!--邮箱 -->
         <mail.version>1.4.7</mail.version>
