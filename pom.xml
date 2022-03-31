@@ -58,7 +58,7 @@
         <spring-mvc.version>5.1.8.RELEASE</spring-mvc.version>
         <spring-data-mongodb.version>3.1.1</spring-data-mongodb.version>
         <spring-retry.version>1.3.0</spring-retry.version>
-        <spring-boot.version>2.1.6.RELEASE</spring-boot.version>
+        <spring-boot.version>2.5.12</spring-boot.version>
 
 
         <!-- 测试类库 -->
