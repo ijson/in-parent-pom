@@ -36,7 +36,7 @@
         <spring.version>5.2.14.RELEASE</spring.version>
         <spring-mvc.version>5.2.14.RELEASE</spring-mvc.version>
         <junit.version>4.13.1</junit.version>
-        <fastjson.version>1.2.47</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <xstream.version>1.4.15</xstream.version>
         <jdk.version>1.8</jdk.version>
         <skip_maven_deploy>false</skip_maven_deploy>
