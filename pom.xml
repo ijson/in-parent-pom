@@ -129,7 +129,7 @@
 
         <!-- 安全框架-->
         <cas-client-core.version>3.4.1</cas-client-core.version>
-        <shiro.version>1.7.1</shiro.version>
+        <shiro.version>1.9.1</shiro.version>
         <esapi.version>2.1.0</esapi.version>
 
 
