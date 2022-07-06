@@ -149,7 +149,7 @@
         <!-- -->
         <aspectj.version>1.8.7</aspectj.version> <!-- -->
         <asm.version>3.3.1</asm.version> <!-- -->
-        <jsch.version>0.1.53</jsch.version> <!-- -->
+        <jsch.version>0.1.54</jsch.version> <!-- -->
         <persistence-api.version>1.0.2</persistence-api.version> <!-- -->
         <guava.version>29.0-jre</guava.version> <!-- -->
         <antlr4-runtime.version>4.7.2</antlr4-runtime.version> <!-- -->
