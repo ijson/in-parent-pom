@@ -170,7 +170,7 @@
         <pinyin4j.version>2.5.1</pinyin4j.version> <!-- -->
         <java-ocr-api.version>15.3.0.3</java-ocr-api.version> <!-- -->
         <jna.version>5.5.0</jna.version> <!-- -->
-        <metadata-extractor.version>2.14.0</metadata-extractor.version> <!-- -->
+        <metadata-extractor.version>2.18.0</metadata-extractor.version> <!-- -->
         <hutool-all.version>5.4.4</hutool-all.version> <!-- -->
         <oshi-core.version>3.4.4</oshi-core.version> <!-- -->
         <urlrewritefilter.version>4.0.4</urlrewritefilter.version> <!-- -->
